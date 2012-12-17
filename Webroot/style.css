@@ -1,0 +1,64 @@
+html, body {
+	color: brown;
+	background-color: #323232;
+	
+}
+
+#main {
+	width: 800px;
+	height: 400px;
+	
+	background-color: #323232;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	margin: -200px 0 0 -400px;
+}
+
+#board {
+	text-align: center;
+	font-family:"courier new",sans-serif;
+	font-size: 24pt;
+	width: 305px;
+	height: 305px;
+	margin: 0px auto;
+	
+}
+
+#rules {
+	font-family:"courier new",sans-serif;
+	font-size: 12pt;
+	width: 305px;
+	height: 55px;
+	margin: 0px auto;
+	color: brown;
+
+
+	}
+	
+
+#board td {
+	width: 80px;
+	height: 80px;
+	
+	background: #373737; /* Old browsers */
+background: -moz-linear-gradient(top,  #373737 0%, #1d1d1d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#373737), color-stop(100%,#1d1d1d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #373737 0%,#1d1d1d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #373737 0%,#1d1d1d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #373737 0%,#1d1d1d 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #373737 0%,#1d1d1d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#1d1d1d',GradientType=0 ); /* IE6-9 */
+
+	box-shadow: inset 0 0 8pt #000;
+	border-top: 1px solid #545454;
+	border-left: 1px solid #545454;
+	border-bottom: 1px solid #202020;
+	border-right: 1px solid #202020;
+}
+
+#board table {
+	border-spacing: 6pt;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" href="/style.css" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="/client.js"></script>
+	<style>
+	a:link {color:#9F1D28;}    /* unvisited link */
+	a:visited {color:#9F1D28;} /* visited link */
+	a:hover {color:#8A1A22;}   /* mouse over link */
+	a:active {color:#73151D;}  /* selected link */
+	</style>
+	
+
+</head>
+<body>
+
+<body onload="javascript:toggleDiv('rules');">
+
+<body style="overflow: hidden">
+
+<script type="text/javascript">
+function toggleDiv(divId) {
+   $("#"+divId).toggle();
+}
+
+</script>
+
+<a href="https://github.com/NoahSchmitz"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub"></a>
+
+<div id="main">
+	<div id="game">
+		<div id="board">
+		<table>
+			<tr>
+				<td id="tl"><p></p></td>
+				<td id="tm"></td>
+				<td id="tr"></td>
+			</tr>
+		
+			<tr>
+				<td id="ml"></td>
+				<td id="mm"></td>
+				<td id="mr"></td>
+			</tr>
+		
+			<tr>
+				<td id="bl"></td>
+				<td id="bm"></td>
+				<td id="br"></td>
+			</tr>
+		</table>
+		<a href="javascript:toggleDiv('rules');" style="padding: 5px 10px;">Rules</a>
+	</div>
+</div>
+<br>
+
+<div id="rules">
+
+<div id="rules" style="background-color: #202020; padding: 5px 5px;">
+Pretty self explanitory- take turns placing an X or O, first to get three in a row wins. 
+</div>
+
+</div>
+
+</body>
+</html>
